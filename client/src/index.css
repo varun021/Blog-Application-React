@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 6px;  /* Reduced width for a tiny scrollbar */
+    height: 6px; /* Reduced height for horizontal scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Scrollbar thumb color */
+    border-radius: 10px; /* Rounder thumb for a smoother look */
+    border: 1px solid #f1f1f1; /* Subtle border */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker thumb when hovered */
+}
+
+/* Optional: Adjust the corner of the scrollbar */
+::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+}
